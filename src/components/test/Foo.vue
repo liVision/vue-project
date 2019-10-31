@@ -1,15 +1,15 @@
 <template>
   <div class="hello">
-    <div>{{ msg }}</div>
+    foo
   </div>
 </template>
 
 <script lang="ts">
-import { Component, Prop, Vue } from "vue-property-decorator";
+import { Component, Prop, Vue, Model, Inject, InjectReactive } from "vue-property-decorator";
 
 @Component
-export default class HelloWorld extends Vue {
-  @Prop(String) readonly msg!: string;
+export default class Test1 extends Vue {
+
 }
 </script>
 
